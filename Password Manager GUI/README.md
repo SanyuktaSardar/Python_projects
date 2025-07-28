@@ -1,7 +1,3 @@
-Here's a sample **README.md** file for your Password Generator project using Python and Tkinter:
-
----
-
 # 🔐 Password Manager with Generator
 
 A simple GUI-based **Password Manager** built using Python's Tkinter module. It allows users to:
@@ -12,7 +8,7 @@ A simple GUI-based **Password Manager** built using Python's Tkinter module. It 
 
 ## 📸 Preview
 
-![App UI](./logo.png) *(Replace with actual UI screenshot if available)*
+![App UI](./logo.png) 
 
 ---
 
@@ -108,6 +104,3 @@ example.com|user@example.com|A1@bC#dE2!f
 **Sanyukta Sardar**
 📧 [ssanyukta16@gmail.com](mailto:ssanyukta16@gmail.com)
 
----
-
-Let me know if you'd like me to generate this README as a downloadable `.md` file.
