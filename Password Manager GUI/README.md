@@ -1,0 +1,113 @@
+Here's a sample **README.md** file for your Password Generator project using Python and Tkinter:
+
+---
+
+# 🔐 Password Manager with Generator
+
+A simple GUI-based **Password Manager** built using Python's Tkinter module. It allows users to:
+
+* Generate strong, random passwords.
+* Save them locally along with website and email details.
+* Copy generated passwords to clipboard automatically.
+
+## 📸 Preview
+
+![App UI](./logo.png) *(Replace with actual UI screenshot if available)*
+
+---
+
+## 🚀 Features
+
+* ✅ **Secure password generation** (mix of uppercase, lowercase, numbers, symbols)
+* ✅ **Clipboard copy** (auto-copies the password)
+* ✅ **Easy data entry** using a user-friendly interface
+* ✅ **Persistent storage** (saves credentials to a local `.txt` file)
+
+---
+
+## 🛠 Technologies Used
+
+* Python 3
+* Tkinter (GUI)
+* `pyperclip` for clipboard operations
+
+---
+
+## 📂 Project Structure
+
+```
+password-manager/
+│
+├── password_manager.py        # Main Python script
+├── logo.png                   # Logo used in UI
+├── password_generator.txt     # Stores saved passwords
+└── README.md                  # Project documentation
+```
+
+---
+
+## 💡 How It Works
+
+1. **Generate Password**:
+
+   * Click "Generate Password"
+   * Password is auto-filled and copied to clipboard
+
+2. **Save Password**:
+
+   * Enter website and email
+   * Click "Add" to save in `password_generator.txt` in the format:
+     `website | email | password`
+
+3. **Validation**:
+
+   * All fields must be filled
+   * Confirmation dialog before saving
+
+---
+
+## 📦 Requirements
+
+Install the required Python module:
+
+```bash
+pip install pyperclip
+```
+
+---
+
+## ▶️ Run the App
+
+```bash
+python password_manager.py
+```
+
+---
+
+## 🔐 Example Output
+
+File: `password_generator.txt`
+
+```
+example.com|user@example.com|A1@bC#dE2!f
+```
+
+---
+
+## 📌 To Do / Future Improvements
+
+* 🔍 Add password search functionality
+* 🔒 Encrypt stored passwords
+* 💾 Use JSON or SQLite for structured data storage
+* 🧪 Add unit testing for functions
+
+---
+
+## 👩‍💻 Author
+
+**Sanyukta Sardar**
+📧 [ssanyukta16@gmail.com](mailto:ssanyukta16@gmail.com)
+
+---
+
+Let me know if you'd like me to generate this README as a downloadable `.md` file.
